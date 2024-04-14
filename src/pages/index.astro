@@ -1,0 +1,26 @@
+---
+import Layout from "../layouts/Layout.astro";
+import "@/styles/globals.css";
+---
+
+<Layout title="Frontend Mentor | QR code component">
+  <main class="my-[5.31rem] lg:mt-[9.5rem] lg:mb-[9.44rem] mx-auto flex justify-center items-center card-wrapper">
+    <section class="card size-[16.875rem] lg:w-[20rem] lg:h-[31.0625rem] rounded-[1.25rem] bg-[#fff] p-4 pb-10 flex flex-col gap-6">
+      <img src="/images/image-qr-code.png" alt="image-qr-code" class="size-72 rounded-[0.625rem] ">
+      <div class="flex flex-col gap-4 text-center items-center justify-center ">
+        <h1 class="w-72 text-[#1F314F] text-[1.375rem] font-bold leading-normal">
+          Improve your front-end skills by building projects
+        </h1>
+        <p class="w-64 text-[#7D889E] font-normal leading-normal tracking-[0.01175rem] px-4 ">
+          Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+        </p>
+      </div>
+    </section>
+  </main>
+</Layout>
+
+<style>
+  .card {
+    box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+  }
+</style>
